@@ -7,7 +7,7 @@ function UsersList (props) {
 
 
     return (
-        <div className ="container">
+        <div className ="container box-shadow shadow p-3 mb-5 bg-white rounded">
             <h1>Listing users - { props.users.length }</h1>
             <div className = "list-group">
                 <ul>

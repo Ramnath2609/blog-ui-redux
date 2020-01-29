@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 function PostShow (props) {
     console.log(props)
     return (
-        <div className = "container">
+        <div className = "container box-shadow shadow p-3 mb-5 bg-white rounded">
             { props.post &&
                 <div>
                     <div className = "jumbotron">
